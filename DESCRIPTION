@@ -17,6 +17,10 @@ Imports:
     rapsimng (>= 0.6.0)
 Suggests: 
     testthat (>= 3.0.0)
+Remotes:
+    byzheng/optree,
+    byzheng/tidyweather,
+    byzheng/rapsimng
 Config/testthat/edition: 3
 URL: https://lentil.rapsimng.bangyou.me/,
     https://github.com/byzheng/rapsimng.lentil
