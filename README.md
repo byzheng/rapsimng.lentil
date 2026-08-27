@@ -16,5 +16,4 @@ remotes::install_github('byzheng/rapsimng.lentil')
 
 For detailed documentation and reference, visit: https://lentil.rapsimng.bangyou.me
 
----
 
