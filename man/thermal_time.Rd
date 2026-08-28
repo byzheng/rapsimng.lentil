@@ -9,7 +9,7 @@ thermal_time(
   maxt,
   x_temp = lentil$get("phenology.thermal_time.x"),
   y_temp = lentil$get("phenology.thermal_time.y"),
-  method = "HourlySinPpAdjusted",
+  method = lentil$get("phenology.thermal_time.method"),
   ...
 )
 }
