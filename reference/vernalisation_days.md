@@ -46,10 +46,6 @@ effective vernalisation time at three hour intervals between the daily
 minimum and maximum temperatures, and then averaging these values to get
 the daily vernalisation time.
 
-For more information about the lentil phenology model, see the [APSIM
-Next Generation lentil
-Documentation](https://apsimng-notes.bangyou.me/docs/Plants/lentil/Phenology/Vegetative.html).
-
 ## Examples
 
 ``` r

@@ -59,8 +59,8 @@ The daily thermal time is calculated by interpolating the effective
 thermal time at three hour intervals between the daily minimum and
 maximum temperatures, and then averaging these values to get the daily
 thermal time. For more information about the lentil phenology model, see
-the [APSIM Next Generation lentil
-Documentation](https://notes.apsimng.bangyou.me/docs/Plants/lentil/Phenology/ThermalTime.html).
+the [APSIM Next Generation Lentil
+Documentation](https://notes.apsimng.bangyou.me/docs/Plants/Lentil/Phenology/ThermalTime.html).
 
 ## Examples
 
