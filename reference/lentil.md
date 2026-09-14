@@ -9,6 +9,10 @@ provides methods to get and set lentil related parameters.
 lentil
 ```
 
+## Value
+
+An option manager object for configuring lentil model parameters.
+
 ## Available Options
 
 - phenology.thermal_time.x:
