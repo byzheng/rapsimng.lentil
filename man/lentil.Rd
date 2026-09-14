@@ -6,6 +6,9 @@
 \usage{
 lentil
 }
+\value{
+An option manager object for configuring lentil model parameters.
+}
 \description{
 An options manager for configuring lentil model parameters. This object provides
 methods to get and set lentil related parameters.

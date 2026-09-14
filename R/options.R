@@ -22,6 +22,7 @@
 #' @export
 #' @importFrom optree create_options_manager
 #' @importFrom optree v_xypair
+#' @return An option manager object for configuring lentil model parameters.
 #' @examples
 #' # Get default thermal time cardinal temperatures
 #' lentil$get("phenology.thermal_time.x")
