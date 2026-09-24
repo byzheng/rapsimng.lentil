@@ -7,7 +7,7 @@
 ## Citation
 
 Source:
-[`DESCRIPTION`](https://github.com/byzheng/rapsimng.lentil/blob/master/DESCRIPTION)
+[`DESCRIPTION`](https://github.com/byzheng/rapsimng.lentil/blob/v0.1.0/DESCRIPTION)
 
 Zheng B (2026). *rapsimng.lentil: Crop-Specific Functions and Parameters
 for APSIM Next Generation Lentil Model*. R package version 0.1.0,
