@@ -1,3 +1,6 @@
+
+.wang_engel_tt <- tidyweather::wang_engel_tt(1.6, 25, 36, n = 50)
+
 #' lentil model options manager
 #'
 #' An options manager for configuring lentil model parameters. This object provides
@@ -32,8 +35,7 @@
 #' lentil$get("phenology.vernalisation_time.y")
 #' 
 #' # Set custom values
-#' lentil$set("phenology.thermal_time.x" = c(0, 25, 40))
-#' lentil$set("phenology.thermal_time.y" = c(0, 25, 0))
+#' lentil$set("phenology.thermal_time.x" = c(0, 25, 40), "phenology.thermal_time.y" = c(0, 25, 0))
 #' 
 #' # Reset to defaults
 #' lentil$reset()
@@ -41,8 +43,8 @@ lentil <- optree::create_options_manager(
     defaults = list(
         phenology = list(
             thermal_time = list(
-                x = c(0, 28, 35),
-                y = c(0, 28, 0),
+                x = .wang_engel_tt$x,
+                y = .wang_engel_tt$y,
                 method = "HourlySinPpAdjusted"
             ),
             vernalisation_time = list(

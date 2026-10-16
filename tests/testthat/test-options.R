@@ -1,12 +1,17 @@
 
 test_that("get returns correct default values", {
     lentil$reset()
-    expect_equal(lentil$get("phenology.thermal_time.x"), c(0, 28, 35))
-    expect_equal(lentil$get("phenology.thermal_time.y"), c(0, 28, 0))
+    expect_equal(length(lentil$get("phenology.thermal_time.x")), 50)
+    expect_equal(length(lentil$get("phenology.thermal_time.y")), 50)
+    expect_equal(lentil$get("phenology.thermal_time.x")[1], 1.6)
+    expect_equal(lentil$get("phenology.thermal_time.x")[50], 36)
+    expect_equal(lentil$get("phenology.thermal_time.y")[1], 0)
+    expect_equal(lentil$get("phenology.thermal_time.y")[50], 0)
     expect_equal(lentil$get("phenology.thermal_time.method"), "HourlySinPpAdjusted")
 })
 
 test_that("set updates values correctly", {
+    lentil$reset()
     lentil$set(phenology = list(thermal_time = list(x = c(5, 25, 40), y = c(0, 20, 0))))
     expect_equal(lentil$get("phenology.thermal_time.x"), c(5, 25, 40))
     expect_equal(lentil$get("phenology.thermal_time.y"), c(0, 20, 0))
@@ -16,8 +21,9 @@ test_that("set updates values correctly", {
 })
 
 test_that("set enforces group validation", {
+    lentil$reset()
     # Missing y
-    expect_no_error(
+    expect_error(
         lentil$set(phenology = list(thermal_time = list(x = c(1, 2, 3))))
     )
 

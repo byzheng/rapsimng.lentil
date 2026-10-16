@@ -42,8 +42,7 @@ lentil$get("phenology.vernalisation_time.x")
 lentil$get("phenology.vernalisation_time.y")
 
 # Set custom values
-lentil$set("phenology.thermal_time.x" = c(0, 25, 40))
-lentil$set("phenology.thermal_time.y" = c(0, 25, 0))
+lentil$set("phenology.thermal_time.x" = c(0, 25, 40), "phenology.thermal_time.y" = c(0, 25, 0))
 
 # Reset to defaults
 lentil$reset()
