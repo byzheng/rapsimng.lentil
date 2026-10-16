@@ -1,4 +1,4 @@
-[![](https://www.r-pkg.org/badges/version/rapsimng.lentil?color=green)](https://cran.r-project.org/web/packages/rapsimng.lentil/index.html)
+[![](https://www.r-pkg.org/badges/version/rapsimng.lentil?color=green)](https://CRAN.R-project.org/package=rapsimng.lentil)
 [![R-CMD-check.yaml](https://github.com/byzheng/rapsimng.lentil/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/byzheng/rapsimng.lentil/actions/workflows/R-CMD-check.yaml)
 
 [![](http://cranlogs.r-pkg.org/badges/grand-total/rapsimng.lentil?color=green)](https://cran.r-project.org/package=rapsimng.lentil)
